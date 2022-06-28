@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="main-title">
+            Harry Poter
+            <div class="favourite">
+                <i class="fa-solid fa-heart favourite-heart"></i>
+                <span class="favourite-num">0</span>
+            </div>
+        </h1>
+        <div class="favourite-box">
+            <i class="fa-solid fa-xmark favourite-box--close"></i>
+            <ul class="favourite-box__inner">
+            </ul>
+        </div>
+        <div class="modal">
+
+        </div>
+        <hr>
+        <p class="search">Search result:<span class="search-result">0</span></p>
+        <form action="#" class="form">
+            <label for="search" name="search" class="search-label">
+                <input type="text" class="input">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </label>
+            <select name="sort" class="sort">
+                <option value="sortMenu">Sort Menu</option>
+                <option value="byAlphabit">Sort by alphabit</option>
+                <option value="birthYear">Sort by birth year</option>
+            </select>
+        </form>
+        <ul class="characters-list">
+
+        </ul>
+    </div>
+
+    <script src="./js/actors.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
